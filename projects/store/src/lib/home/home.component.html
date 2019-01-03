@@ -1,0 +1,23 @@
+<nav>
+  <div class="collapse navbar-collapse">
+  <ul class="navbar-nav mr-auto">
+  <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle">Items</a>
+  <div class="dropdown-menu" aria-labelledby=
+"navbarDropdownMenuLink">
+  <a class="dropdown-item"
+[routerLink]="['book-list']">Books</a>
+  <!-- <a class="dropdown-item"
+[routerLink]="['cd-list']">CDs</a>
+  <a class="dropdown-item"
+[routerLink]="['dvd-list']">DVDs</a> -->
+  </div>
+  </li>
+  </ul>
+  </div>
+</nav>
+<!-- Page Content -->
+<div id="content">
+  <h1>Home da lib</h1>
+  <router-outlet></router-outlet>
+</div>
